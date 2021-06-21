@@ -62,6 +62,11 @@ const routes = [
     component: () => import('../views/Products/AlbumArtists.vue')
   },
   {
+    path: '/browse-music/artists/ed-sheran/bio',
+    name: 'Bio',
+    component: () => import('../views/Products/ArtistBio.vue')
+  },
+  {
     path: '/browse-music/geners',
     name: 'Geners',
     component: () => import('../views/Products/GenersList.vue')

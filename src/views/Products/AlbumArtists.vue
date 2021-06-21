@@ -1,6 +1,9 @@
 <template>
     <div class="songs">
         <p class="directory">Home > Browse music > Albums > Artists > Ed Sheeran</p>
+        <div class="portada">
+            <router-link to="/browse-music/artists/ed-sheran/bio"><img src="@/assets/images/ed3.png" alt="portada"></router-link>
+        </div>
         <div class="songs__song">
             <div class="songs__song--cover">
                 <img src="@/assets/images/collaborationsed.png" alt="cover">
@@ -81,13 +84,22 @@
     {
         margin: 7px 0 0 4%;
     }
+    .portada
+    {
+        width: 100%;
+
+    }
+    .portada img 
+    {
+        width: 100%;
+    }
     .songs
     {
-        margin-left: 4%; 
         padding-top: 100px;
     }
     .songs__song
     {
+        margin-left: 4%; 
         display: flex;
         flex-direction: row;
         margin-top: 10px;

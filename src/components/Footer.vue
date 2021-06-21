@@ -16,11 +16,11 @@
             </div>
         </div>
         <div class="social">
-            <img src="svg/instagram.svg" alt="instagram">
-            <img src="svg/youtube.svg" alt="youtube">
-            <img src="svg/twitter.svg" alt="twitter">
-            <img src="svg/facebook.svg" alt="facebook">
-            <img src="svg/linkedin.svg" alt="linkedin">
+            <img src="@/assets/svg/instagram.svg" alt="instagram">
+            <img src="@/assets/svg/youtube.svg" alt="youtube">
+            <img src="@/assets/svg/twitter.svg" alt="twitter">
+            <img src="@/assets/svg/facebook.svg" alt="facebook">
+            <img src="@/assets/svg/linkedin.svg" alt="linkedin">
         </div>
         <div class="terms">
             <p>© Cuasar 2021</p>

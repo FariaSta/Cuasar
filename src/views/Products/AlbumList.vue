@@ -1,12 +1,11 @@
 <template>
-    <HeaderHome></HeaderHome>
     <div class="browse_music">
         <p class="directory">Home > Browse music > Album</p>
         <div class="songs">
             <h1 style="color: #505CE4;">ALBUMS</h1>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/cover1.png" alt="cover">
+                    <img src="@/assets/images/cover1.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -20,7 +19,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/divide_cover.png" alt="cover">
+                    <img src="@/assets/images/divide_cover.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -34,7 +33,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/dua-lipa.png" alt="cover">
+                    <img src="@/assets/images/dua-lipa.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -278,9 +277,9 @@
 
 </style>
 <script>
-import HeaderHome from '@/Components/HeaderHome'
-import ButtonAction from '@/components/ButtonAction.vue'
-import Footer from '@/Components/Footer.vue'
+import HeaderHome from '../../components/HeaderHome'
+import ButtonAction from '../../components/ButtonAction.vue'
+import Footer from '../../components/Footer.vue'
 
 export default {
     name: 'BrowseMusic',

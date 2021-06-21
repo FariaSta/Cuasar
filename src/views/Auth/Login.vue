@@ -2,24 +2,23 @@
     <div class="login">
         <div class="presetation">
             <img
-                src="images/aro-del-login.png"
+                src="@/assets/images/aro-del-login.png"
                 alt="Login"
                 class="aro-del-login"
             />
-            <img src="svg/logo-login.svg" alt="Cuasar" class="logo" />
+            <img src="@/assets/svg/logo-login.svg" alt="Cuasar" class="logo" />
         </div>
-        <form @submit.prevent="submit">
+        <form>
             <a href="/" style="color: #b283f5">Need an account?</a>
             <input 
                 id="email"
-                v-model="form.email"
+                
                 type="email" 
                 placeholder="E-Mail" 
             />
             <div>
                 <input
                     id="password"
-                    v-model="form.password"
                     type="password"
                     placeholder="Password"
                     class="password"
@@ -78,11 +77,8 @@ input {
 </style>
 
 <script>
-import { reactive } from 'vue'
-import { Inertia } from '@inertiajs/inertia'
-
-import GeneralFooter from "@/Components/GeneralFooter.vue";
-import ButtonAction from "@/components/ButtonAction.vue";
+import GeneralFooter from "../../components/GeneralFooter.vue";
+import ButtonAction from "../../components/ButtonAction";
 
 export default {
     name: "Login",
@@ -90,17 +86,6 @@ export default {
     components: {
         GeneralFooter,
         ButtonAction,
-    },
-    setup () {
-        const form = reactive({
-            email: null,
-            password: null,
-        })
-        function submit() {
-            Inertia.post('/login', form)
-        }
-
-        return { form, submit }
     },
 };
 </script>

@@ -1,10 +1,9 @@
 <template>
-    <HeaderHome></HeaderHome>
     <div class="songs">
         <p class="directory">Home > Browse music > Albums > Artists > Ed Sheeran</p>
         <div class="songs__song">
             <div class="songs__song--cover">
-                <img src="images/collaborationsed.png" alt="cover">
+                <img src="@/assets/images/collaborationsed.png" alt="cover">
             </div>
             <div class="info">
                 <div class="songs__song--inf__description">
@@ -14,7 +13,7 @@
                 </div>
                 <div class="songs__song--button">
                     <button class="songs__song--button__price">
-                        <img src="svg/shoopingcar.svg" alt="car">
+                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
                         <span>$10.39</span>
                     </button>
                 </div>
@@ -22,7 +21,7 @@
         </div>
         <div class="songs__song">
             <div class="songs__song--cover">
-                <img src="images/divide.png" alt="cover">
+                <img src="@/assets/images/divide.png" alt="cover">
             </div>
             <div class="info">
                 <div class="songs__song--inf__description">
@@ -32,7 +31,7 @@
                 </div>
                 <div class="songs__song--button">
                     <button class="songs__song--button__price">
-                        <img src="svg/shoopingcar.svg" alt="car">
+                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
                         <span>$15.20</span>
                     </button>
                 </div>
@@ -40,7 +39,7 @@
         </div>
         <div class="songs__song">
             <div class="songs__song--cover">
-                <img src="images/x.png" alt="cover">
+                <img src="@/assets/images/x.png" alt="cover">
             </div>
             <div class="info">
                 <div class="songs__song--inf__description">
@@ -50,7 +49,7 @@
                 </div>
                 <div class="songs__song--button">
                     <button class="songs__song--button__price">
-                        <img src="svg/shoopingcar.svg" alt="car">
+                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
                         <span>$8.95</span>
                     </button>
                 </div>
@@ -233,9 +232,9 @@
     }
 </style>
 <script>
-import HeaderHome from '@/Components/HeaderHome'
-import ButtonAction from '@/components/ButtonAction.vue'
-import Footer from '@/Components/Footer.vue'
+import HeaderHome from '../../components/HeaderHome'
+import ButtonAction from '../../components/ButtonAction.vue'
+import Footer from '../../components/Footer.vue'
 
 export default {
     name: 'BrowseMusic',

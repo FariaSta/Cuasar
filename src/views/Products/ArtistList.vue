@@ -1,12 +1,11 @@
 <template>
-    <HeaderHome></HeaderHome>
     <div class="browse_music">
         <p class="directory">Home > Browse music > Artist</p>
         <div class="songs">
             <h1 style="color: #505CE4;">ARTISTS</h1>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/mark-ronson.png" alt="cover">
+                    <img src="@/assets/images/mark-ronson.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -16,23 +15,25 @@
                 </div>
             </div>
             <div class="songs__song">
+                
                 <div class="songs__song--cover">
-                    <inertia-link :href="`/album-artists`">
-                        <img src="images/ed-sheeran.png" alt="cover">
-                    </inertia-link>
+                        <router-link to="/browse-music/artists/edsheran">
+                            <img src="@/assets/images/ed-sheeran.png" alt="cover">
+                        </router-link>
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
-                        <inertia-link :href="`/album-artists`">
+                        <router-link to="/browse-music/artists/ed-sheran">
                             <h2 style="margin-bottom: 8px; line-height: 17px; font-size: 14px; font-size: 14px; font-weight: 400;">Ed Sheeran</h2> 
                             <p style="line-height: 14px; color: #555555; font-size: 12px;">Edward Christopher Sheeran MBE is an English singer, songwriter, musician, record producer, actor, and businessman. </p>
-                        </inertia-link>
+                        </router-link>
                     </div>
                 </div>
+                
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/dua-lipa2.png" alt="cover">
+                    <img src="@/assets/images/dua-lipa2.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -273,9 +274,9 @@
 
 </style>
 <script>
-import HeaderHome from '@/Components/HeaderHome'
-import ButtonAction from '@/components/ButtonAction.vue'
-import Footer from '@/Components/Footer.vue'
+import HeaderHome from '../../components/HeaderHome'
+import ButtonAction from '../../components/ButtonAction.vue'
+import Footer from '../../components/Footer.vue'
 
 export default {
     name: 'BrowseMusic',

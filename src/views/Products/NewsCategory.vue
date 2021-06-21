@@ -1,8 +1,9 @@
 <template>
     <div class="news">
-        <p class="directory">Home > News</p>
+        <p class="directory">Home > News > New releases</p>
         <div class="news__products">
             <h1 style="color: #505CE4; margin-left: 4%">NEWS</h1>
+            <h1 style="color: #333333; margin-left: 4%">New releases</h1>
             <div class="news__products--description">
                 <P>New Music<br>
                 Dale Play!<br>
@@ -17,10 +18,10 @@
                 CUASAR MUSIC - POP</P>
             </div>
             <div class="news__products--images">
-                <img src="@/assets/images/ed.png" alt="arianna">
+                <router-link to="/browse-music/news/news-category/ed-sheran"><img src="@/assets/images/ed.png" alt="arianna"></router-link>
             </div>
         </div>
-        <router-link to="/browse-music/news/news-category"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
+        <ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction>
         <div class="page">
             <div class="page__number1">
                 <p>1</p>
@@ -34,10 +35,6 @@
             <div class="page__next">
                 <p>></p>
             </div>
-        </div>
-        <div class="contact-us">
-            <h2>Did you find what<br>your were looking for?</h2>
-            <ButtonAction>Contact us</ButtonAction>
         </div>
     </div>
     <Footer></Footer>
@@ -155,26 +152,6 @@
         font-size: 23px;
         margin-left: 10px;
         font-weight: bold;
-    }
-    .contact-us
-    {
-        display: flex;
-        margin-top: 20px;
-        background: #EFF0FA;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-    .contact-us h2
-    {
-        font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
-        margin-right: 25px;
-        color: #865BFF;
     }
 </style>
 <script>

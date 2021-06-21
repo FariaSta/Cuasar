@@ -1,7 +1,6 @@
 <template>
-    <inertia-link :href="`/home`">
         <HeaderBack></HeaderBack>
-    </inertia-link>
+    
     <div id="register" class="register">
             <div class="relative pt-1">
                 <div class="father">
@@ -288,15 +287,13 @@ input
 
 </style>
 <script>
-    import { reactive } from 'vue'
-    import { Inertia } from '@inertiajs/inertia'
-    import GeneralFooter from '@/Components/GeneralFooter.vue'
-    import ButtonAction from '@/components/ButtonAction.vue'
-    import HeaderBack from '@/components/HeaderBack.vue'
+    import GeneralFooter from '../../components/GeneralFooter.vue'
+    import ButtonAction from '../../components/ButtonAction.vue'
+    import HeaderBack from '../../components/HeaderBack.vue'
 
     export default {
         name: 'Register',
-        el: 'register',
+        
         components: {
             GeneralFooter,
             ButtonAction,
@@ -353,9 +350,6 @@ input
                 country2: null,
 
             })
-            function submit() {
-                Inertia.post('/register', form)
-            }
 
             return { form, submit }
         },

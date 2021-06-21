@@ -1,6 +1,6 @@
 <template>
         <div class="container">
-            <HeaderHome></HeaderHome>
+            
             <div class="check">
                 <div class="confirmed"> 
                     <img src="svg/check.svg" alt="check">
@@ -44,9 +44,9 @@ p
 </style>
 
 <script>
-import HeaderHome from '@/Components/HeaderHome'
-import ButtonAction from '@/Components/ButtonAction'
-import GeneralFooter from '@/Components/GeneralFooter'
+import HeaderHome from '../../components/HeaderHome'
+import ButtonAction from '../../components/ButtonAction'
+import GeneralFooter from '../../components/GeneralFooter'
 
 export default {
     components: {

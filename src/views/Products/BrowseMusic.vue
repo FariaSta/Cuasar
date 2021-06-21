@@ -1,5 +1,5 @@
 <template>
-    <HeaderHome></HeaderHome>
+    
     <div class="browse_music">
         <p class="directory">Home > Browse music</p>
         <h2 style="color: #B283F5;" class="browse-music">BROWSE MUSIC</h2>
@@ -13,7 +13,7 @@
                     CUASAR MUSIC - POP</P>
                 </div>
                 <div class="news__products--images">
-                    <img src="images/arianna.png" alt="arianna">
+                    <img src="@/assets/images/arianna.png" alt="arianna">
                 </div>
                 <div class="news__products--description">
                     <P>New Music<br>
@@ -21,18 +21,18 @@
                     CUASAR MUSIC - POP</P>
                 </div>
                 <div class="news__products--images">
-                    <img src="images/ed.png" alt="arianna">
+                    <img src="@/assets/images/ed.png" alt="arianna">
                 </div>
             </div>
         </div>
-        <inertia-link :href="`/news`">
-            <ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction>
-        </inertia-link>
+        
+            <router-link to="/browse-music/news"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
+        
         <div class="songs">
             <h1 style="color: #505CE4;">SONGS</h1>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/cover1.png" alt="cover">
+                    <img src="@/assets/images/cover1.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -42,13 +42,13 @@
                     </div>
                     <div class="songs__song--button">
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/play.svg" alt="play">
+                            <img src="@/assets/svg/play.svg" alt="play">
                         </button>
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/config.svg" alt="config">
+                            <img src="@/assets/svg/config.svg" alt="config">
                         </button>
                         <button class="songs__song--button__price">
-                            <img src="svg/shoopingcar.svg" alt="car">
+                            <img src="@/assets/svg/shoopingcar.svg" alt="car">
                             <span>$0.40</span>
                         </button>
                     </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/divide_cover.png" alt="cover">
+                    <img src="@/assets/images/divide_cover.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -66,13 +66,13 @@
                     </div>
                     <div class="songs__song--button">
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/play.svg" alt="play">
+                            <img src="@/assets/svg/play.svg" alt="play">
                         </button>
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/config.svg" alt="config">
+                            <img src="@/assets/svg/config.svg" alt="config">
                         </button>
                         <button class="songs__song--button__price">
-                            <img src="svg/shoopingcar.svg" alt="car">
+                            <img src="@/assets/svg/shoopingcar.svg" alt="car">
                             <span>$0.99</span>
                         </button>
                     </div>
@@ -80,7 +80,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/dua-lipa.png" alt="cover">
+                    <img src="@/assets/images/dua-lipa.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -90,25 +90,25 @@
                     </div>
                     <div class="songs__song--button">
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/play.svg" alt="play">
+                            <img src="@/assets/svg/play.svg" alt="play">
                         </button>
                         <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                            <img src="svg/config.svg" alt="config">
+                            <img src="@/assets/svg/config.svg" alt="config">
                         </button>
                         <button class="songs__song--button__price">
-                            <img src="svg/shoopingcar.svg" alt="car">
+                            <img src="@/assets/svg/shoopingcar.svg" alt="car">
                             <span>$1.39</span>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction>
+        <router-link to="/browse-music/geners"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
         <div class="songs">
             <h1 style="color: #505CE4;">ALBUMS</h1>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/cover1.png" alt="cover">
+                    <img src="@/assets/images/cover1.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -122,7 +122,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/divide_cover.png" alt="cover">
+                    <img src="@/assets/images/divide_cover.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -136,7 +136,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/dua-lipa.png" alt="cover">
+                    <img src="@/assets/images/dua-lipa.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -149,14 +149,12 @@
                 </div>
             </div>
         </div>
-        <inertia-link :href="`/album-artists`">
-            <ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction>
-        </inertia-link>
+            <router-link to="/browse-music/album"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
         <div class="songs">
             <h1 style="color: #505CE4;">ARTISTS</h1>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/mark-ronson.png" alt="cover">
+                    <img src="@/assets/images/mark-ronson.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -167,7 +165,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/ed-sheeran.png" alt="cover">
+                    <img src="@/assets/images/ed-sheeran.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -178,7 +176,7 @@
             </div>
             <div class="songs__song">
                 <div class="songs__song--cover">
-                    <img src="images/dua-lipa2.png" alt="cover">
+                    <img src="@/assets/images/dua-lipa2.png" alt="cover">
                 </div>
                 <div class="info">
                     <div class="songs__song--inf__description">
@@ -188,9 +186,7 @@
                 </div>
             </div>
         </div>
-        <inertia-link :href="`/artist-list`">
-            <ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction>
-        </inertia-link>
+            <router-link to="/browse-music/artists"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
         <div class="contact-us">
             <h2>Did you find what<br>your were looking for?</h2>
             <ButtonAction>Contact us</ButtonAction>
@@ -351,9 +347,9 @@
 
 </style>
 <script>
-import HeaderHome from '@/Components/HeaderHome'
-import ButtonAction from '@/components/ButtonAction.vue'
-import Footer from '@/Components/Footer.vue'
+import HeaderHome from '../../components/HeaderHome'
+import ButtonAction from '../../components/ButtonAction.vue'
+import Footer from '../../components/Footer.vue'
 
 export default {
     name: 'BrowseMusic',

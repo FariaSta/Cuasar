@@ -24,12 +24,12 @@
         </div>
         <div class="songs__song">
             <div class="songs__song--cover">
-                <img src="@/assets/images/divide.png" alt="cover">
+                <router-link to="/browse-music/artists/ed-sheran/album-detail"><img src="@/assets/images/divide.png" alt="cover"></router-link>
             </div>
             <div class="info">
                 <div class="songs__song--inf__description">
-                    <h2>Pop</h2>
-                    <p>Divide</p>
+                    <router-link to="/browse-music/artists/ed-sheran/album-detail"><h2>Pop</h2></router-link>
+                    <router-link to="/browse-music/artists/ed-sheran/album-detail"><p>Divide</p></router-link>
                     <span>Ed Sheeran</span>
                 </div>
                 <div class="songs__song--button">

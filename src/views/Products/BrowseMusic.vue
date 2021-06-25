@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <router-link to="/browse-music/geners"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
+        <router-link to="/browse-music/songs"><ButtonAction style="margin-top: 15px; display: flex; justify-content: center">View All</ButtonAction></router-link>
         <div class="songs">
             <h1 style="color: #505CE4;">ALBUMS</h1>
             <div class="songs__song">

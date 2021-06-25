@@ -54,7 +54,6 @@
 .home
 {
     height: 100vh;
-    padding-top: 100px;
 }
 .presentation1
 {
@@ -222,13 +221,15 @@
 import HeaderHome from '@/components/HeaderHome.vue'
 import Footer from '@/components/Footer.vue'
 import ButtonAction from '@/components/ButtonAction.vue'
+import HeaderBack from '@/components/HeaderBack.vue'
 
 export default {
     name: 'Home',
     components: {
         HeaderHome,
         Footer,
-        ButtonAction
+        ButtonAction,
+        HeaderBack,
   }
 }
 </script>

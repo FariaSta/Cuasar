@@ -76,6 +76,11 @@ const routes = [
     name: 'Geners',
     component: () => import('../views/Products/GenersList.vue')
   },
+  {
+    path: '/browse-music/songs',
+    name: 'Songs',
+    component: () => import('../views/Products/SongsList.vue')
+  },
 
 
 ]

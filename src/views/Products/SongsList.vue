@@ -1,107 +1,113 @@
 <template>
     <HeaderHome />
-    <p class="directory">Home > Browse music > Songs</p>
-    <div class="songs">
-        <h1 style="color: #505CE4;">SONGS</h1>
-        <div class="songs__song">
-            <div class="songs__song--cover">
-                <img src="@/assets/images/cover1.png" alt="cover">
-            </div>
-            <div class="info">
-                <div class="songs__song--inf__description">
-                    <h2>FUNK</h2>
-                    <p>Uptown Funk<br>(feat. Bruno Mars)</p>
-                    <span>Mark Ronson, Bruno Mars</span>
+        <div class="songs">
+            <p class="directory">Home > Browse music > Songs</p>
+            <div class="container">
+                <h1 style="color: #505CE4;">SONGS</h1>
+                <div class="songs__song">
+                    <div class="songs__song--cover">
+                        <img src="@/assets/images/cover1.png" alt="cover">
+                    </div>
+                    <div class="info">
+                        <div class="songs__song--inf__description">
+                            <h2>FUNK</h2>
+                            <p>Uptown Funk<br>(feat. Bruno Mars)</p>
+                            <span>Mark Ronson, Bruno Mars</span>
+                        </div>
+                        <div class="songs__song--button">
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/play.svg" alt="play">
+                            </button>
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/config.svg" alt="config">
+                            </button>
+                            <button class="songs__song--button__price">
+                                <img src="@/assets/svg/shoopingcar.svg" alt="car">
+                                <span>$0.40</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="songs__song--button">
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/play.svg" alt="play">
-                    </button>
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/config.svg" alt="config">
-                    </button>
-                    <button class="songs__song--button__price">
-                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
-                        <span>$0.40</span>
-                    </button>
+                <div class="songs__song">
+                    <div class="songs__song--cover">
+                        <img src="@/assets/images/divide_cover.png" alt="cover">
+                    </div>
+                    <div class="info">
+                        <div class="songs__song--inf__description">
+                            <h2>POP</h2>
+                            <p>Shape of You</p>
+                            <span>Ed Sheeran</span>
+                        </div>
+                        <div class="songs__song--button">
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/play.svg" alt="play">
+                            </button>
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/config.svg" alt="config">
+                            </button>
+                            <button class="songs__song--button__price">
+                                <img src="@/assets/svg/shoopingcar.svg" alt="car">
+                                <span>$0.99</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="songs__song">
+                    <div class="songs__song--cover">
+                        <img src="@/assets/images/dua-lipa.png" alt="cover">
+                    </div>
+                    <div class="info">
+                        <div class="songs__song--inf__description">
+                            <h2>NU-DISCO</h2>
+                            <p>Don’t Start now</p>
+                            <span>Dua Lipa</span>
+                        </div>
+                        <div class="songs__song--button">
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/play.svg" alt="play">
+                            </button>
+                            <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+                                <img src="@/assets/svg/config.svg" alt="config">
+                            </button>
+                            <button class="songs__song--button__price">
+                                <img src="@/assets/svg/shoopingcar.svg" alt="car">
+                                <span>$1.39</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="songs__song">
-            <div class="songs__song--cover">
-                <img src="@/assets/images/divide_cover.png" alt="cover">
-            </div>
-            <div class="info">
-                <div class="songs__song--inf__description">
-                    <h2>POP</h2>
-                    <p>Shape of You</p>
-                    <span>Ed Sheeran</span>
+            <div class="page">
+                <div class="page__number1">
+                    <p>1</p>
                 </div>
-                <div class="songs__song--button">
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/play.svg" alt="play">
-                    </button>
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/config.svg" alt="config">
-                    </button>
-                    <button class="songs__song--button__price">
-                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
-                        <span>$0.99</span>
-                    </button>
+                <div class="page__number2">
+                    <p>2</p>
+                </div>
+                <div class="page__number3">
+                    <p>3</p>
+                </div>
+                <div class="page__next">
+                    <p>></p>
                 </div>
             </div>
-        </div>
-        <div class="songs__song">
-            <div class="songs__song--cover">
-                <img src="@/assets/images/dua-lipa.png" alt="cover">
-            </div>
-            <div class="info">
-                <div class="songs__song--inf__description">
-                    <h2>NU-DISCO</h2>
-                    <p>Don’t Start now</p>
-                    <span>Dua Lipa</span>
-                </div>
-                <div class="songs__song--button">
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/play.svg" alt="play">
-                    </button>
-                    <button style="background: #865BFF; border-radius: 10px; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
-                        <img src="@/assets/svg/config.svg" alt="config">
-                    </button>
-                    <button class="songs__song--button__price">
-                        <img src="@/assets/svg/shoopingcar.svg" alt="car">
-                        <span>$1.39</span>
-                    </button>
-                </div>
+            <div class="contact-us">
+                <h2>Did you find what<br>your were looking for?</h2>
+                <ButtonAction>Contact us</ButtonAction>
             </div>
         </div>
-    </div>
-    <div class="page">
-        <div class="page__number1">
-            <p>1</p>
-        </div>
-        <div class="page__number2">
-            <p>2</p>
-        </div>
-        <div class="page__number3">
-            <p>3</p>
-        </div>
-        <div class="page__next">
-            <p>></p>
-        </div>
-    </div>
-    <div class="contact-us">
-        <h2>Did you find what<br>your were looking for?</h2>
-        <ButtonAction>Contact us</ButtonAction>
-    </div>
     <Footer />
 </template>
 <style scoped>
+    .songs 
+    {
+        padding-top: 100px;
+    }
     .directory
     {
         margin: 7px 0 0 4%;
     }
-    .songs
+    .container
     {
         margin-left: 4%; 
         margin-top: 15px;

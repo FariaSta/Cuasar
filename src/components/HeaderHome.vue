@@ -1,13 +1,15 @@
 <template>
     <header>
-        <div class="initial">
-            <img src="@/assets/svg/logo.svg" alt="Cuasar" class="header--logo">
-            <div class="header--icons">
-                <img src="@/assets/svg/people.svg" alt="People" class="header--icons__people">
-                <img src="@/assets/svg/car.svg" alt="Car" class="header--icons__car">
+        <div class="container">
+            <div class="initial">
+                <img src="@/assets/svg/logo.svg" alt="Cuasar" class="header--logo">
+                <div class="header--icons">
+                    <img src="@/assets/svg/people.svg" alt="People" class="header--icons__people">
+                    <img src="@/assets/svg/car.svg" alt="Car" class="header--icons__car">
+                </div>
             </div>
+            <input type="text" placeholder="Search...">
         </div>
-        <input type="text" placeholder="Search...">
     </header>
 </template>
 
@@ -15,10 +17,14 @@
     header
     {
         background: linear-gradient(90deg, #B283F5 0%, #865BFF 30.21%, #558DFE 65.62%, #505CE4 100%);
-        padding: 20px 20px;
+        
         position: fixed;
-        width: 92%;
+        width: 100%;
         top: 0;
+    }
+    .container
+    {
+        margin: 20px 20px;
     }
     .initial
     {

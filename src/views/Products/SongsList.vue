@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <p class="directory">Home > Browse music > Songs</p>
     <div class="songs">
         <h1 style="color: #505CE4;">SONGS</h1>

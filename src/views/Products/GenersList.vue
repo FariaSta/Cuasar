@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <div class="browse_music">
         <p class="directory">Home > Browse music > Geners</p>
         <div class="songs">

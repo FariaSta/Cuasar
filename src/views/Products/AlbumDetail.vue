@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <HeaderHome />
+    <div class="albumdetail">
         <p class="directory">Home > Browse music > Albums > Ed Sheeran > Ed Sheeran</p>
         <div class="songs__song">
             <div class="songs__song--cover">
@@ -143,6 +144,10 @@
     <Footer />
 </template>
 <style scoped>
+    .albumdetail
+    {
+        padding-top: 100px;
+    }
     .directory
     {
         margin: 7px 0 0 4%;
@@ -311,6 +316,7 @@
     }
 </style>
 <script>
+import HeaderHome from '../../components/HeaderHome.vue'
 import ButtonAction from '../../components/ButtonAction.vue'
 import Footer from '../../components/Footer.vue'
 
@@ -318,6 +324,7 @@ export default {
     components: {
         Footer,
         ButtonAction,
+        HeaderHome
     }
 }
 </script>

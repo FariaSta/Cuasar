@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <div class="browse_music">
         <p class="directory">Home > Browse music > Artist</p>
         <div class="songs">
@@ -65,10 +66,6 @@
     <Footer></Footer>
 </template>
 <style scoped>
-    .browse_music
-    {
-        padding-top: 100px;
-    }
     h1
     {
         font-family: 'Montserrat', sans-serif;

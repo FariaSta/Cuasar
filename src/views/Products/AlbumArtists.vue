@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <div class="songs">
         <p class="directory">Home > Browse music > Albums > Artists > Ed Sheeran</p>
         <div class="portada">
@@ -80,10 +81,6 @@
     <Footer></Footer>
 </template>
 <style scoped>
-    .directory
-    {
-        margin: 7px 0 0 4%;
-    }
     .portada
     {
         width: 100%;
@@ -92,10 +89,6 @@
     .portada img 
     {
         width: 100%;
-    }
-    .songs
-    {
-        padding-top: 100px;
     }
     .songs__song
     {

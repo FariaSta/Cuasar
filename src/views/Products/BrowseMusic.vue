@@ -1,5 +1,5 @@
 <template>
-    
+    <HeaderHome />
     <div class="browse_music">
         <p class="directory">Home > Browse music</p>
         <h2 style="color: #B283F5;" class="browse-music">BROWSE MUSIC</h2>

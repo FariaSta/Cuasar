@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <div class="news">
         <p class="directory">Home > News > New releases</p>
         <div class="news__products">
@@ -24,10 +25,6 @@
    
 </template>
 <style scoped>
-    .news
-    {
-        padding-top: 100px;
-    }
     h1
     {
         font-family: 'Montserrat', sans-serif;

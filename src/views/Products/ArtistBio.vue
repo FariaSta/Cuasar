@@ -1,4 +1,5 @@
 <template>
+    <HeaderHome />
     <div class="info">
         <p class="directory">Home > Browse music > Albums > Artists > Ed Sheeran > Bio</p>
         <div class="portada">

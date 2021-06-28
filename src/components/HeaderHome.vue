@@ -16,6 +16,9 @@
     {
         background: linear-gradient(90deg, #B283F5 0%, #865BFF 30.21%, #558DFE 65.62%, #505CE4 100%);
         padding: 20px 20px;
+        position: fixed;
+        width: 92%;
+        top: 0;
     }
     .initial
     {

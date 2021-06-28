@@ -1,6 +1,6 @@
 <template>
     <div id="MenuLoginRegister" class="MenuLoginRegister">
-        <button @click="show = !show"><img src="@/assets/svg/menu.svg" alt="Menu"></button>
+        <button @click="show = !show" style="background: none; border: none;"><img style="margin-top: 1px;" src="@/assets/svg/menu.svg" alt="Menu"></button>
          <transition name="slide-fade">
             <div class="menu" v-if="show">
                 <div class="header-menu">
@@ -8,31 +8,17 @@
                     <img src="@/assets/svg/logo.svg" alt="Cuasar">
                     <div class="people">
                         <img src="@/assets/svg/people.svg" alt="people">
-                        <h1>Hello!</h1>
+                        <h1 style="font-size: 18px; margin-right: 10px">Hello!</h1>
                     </div>
                 </div>
                 <div class="menu__buttons">
                     <button class="menu__buttons--login">
-                        <inertia-link :href="`/login`">
                         Log in
-                        </inertia-link>
                     </button>
                     <button class="menu__buttons--signup">
-                        <inertia-link :href="`/register`">
                         Sign up
-                        </inertia-link>
                     </button>
                 </div>
-               <!-- <div>
-                    <div class="w-75 m-auto">
-                        <div>
-                            <img src="" alt="Profile Picture">
-                        </div>
-                        <div>
-                            <h2>Hello! {User}</h2>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="menu__nav">
                     <ul>
                         <li>
@@ -127,6 +113,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    background: none;
 }
 .menu__buttons
 {
@@ -144,6 +132,7 @@
     font-weight: 700;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    border: none;
 }
 .menu__buttons--signup
 {
@@ -156,6 +145,7 @@
     font-size: 18px;
     margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
+    border: none;
 }
 .menu__nav
 {
@@ -171,6 +161,7 @@
 .menu__nav ul 
 {
     width: 95%;
+    padding-left: 0;
 }
 .menu__nav li 
 {
@@ -179,6 +170,8 @@
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    list-style:none;
+    
 }
 
 .slide-fade-leave-active, .slide-fade-enter-active  

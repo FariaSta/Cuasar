@@ -6,6 +6,7 @@
                 <div class="header--icons">
                     <img src="@/assets/svg/people.svg" alt="People" class="header--icons__people">
                     <img src="@/assets/svg/car.svg" alt="Car" class="header--icons__car">
+                    <menu-login-register style="margin-left: 10px;" />
                 </div>
             </div>
             <input type="text" placeholder="Search...">
@@ -19,7 +20,7 @@
         background: linear-gradient(90deg, #B283F5 0%, #865BFF 30.21%, #558DFE 65.62%, #505CE4 100%);
         position: fixed;
         width: 100%;
-        top: 0;
+        height: 100px;
     }
     .container
     {
@@ -27,13 +28,14 @@
     }
     .initial
     {
+        width: 100%;
         display: flex;
     }
     .header--icons
     {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: end;
     }
     .header--icons__car
     {
@@ -41,10 +43,22 @@
     }
     input
     {
-        width: 100%;
+        width: 96%;
         margin-top: 10px;
         border-radius: 20px;
         height: 25px;
         border: none;
+        border-radius: 5px; 
+        height: 30px; 
+        color: #B283F5; 
+        padding-left:10px;
     }
 </style>
+<script>
+import MenuLoginRegister from './MenuLoginRegister';
+export default {
+    components: {
+        MenuLoginRegister
+    }
+}
+</script>

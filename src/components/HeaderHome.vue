@@ -17,7 +17,6 @@
     header
     {
         background: linear-gradient(90deg, #B283F5 0%, #865BFF 30.21%, #558DFE 65.62%, #505CE4 100%);
-        
         position: fixed;
         width: 100%;
         top: 0;

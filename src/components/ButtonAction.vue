@@ -18,6 +18,8 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         transition: all 1s ease;
+        display: flex;
+        justify-content: space-evenly;
     }
     button:hover 
     {

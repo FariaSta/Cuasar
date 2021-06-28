@@ -81,8 +81,13 @@ const routes = [
     name: 'Songs',
     component: () => import('../views/Products/SongsList.vue')
   },
+  {
+    path: '/browse-music/artists/ed-sheran/albums/divide/shape-of-You',
+    name: 'Song Detail',
+    component: () => import('../views/Products/SongDetail.vue')
+  },
 
-
+//Product detail, song detail
 ]
 
 const router = createRouter({

@@ -1,7 +1,7 @@
 <template>
     <HeaderHome />
+    <p class="directory">Home > Browse music > Albums > Ed Sheeran > Ed Sheeran</p>
     <div class="albumdetail">
-        <p class="directory">Home > Browse music > Albums > Ed Sheeran > Ed Sheeran</p>
         <div class="songs__song">
             <div class="songs__song--cover">
                 <router-link to="/browse-music/artists/ed-sheran/album-detail"><img src="@/assets/images/divide.png" alt="cover"></router-link>
